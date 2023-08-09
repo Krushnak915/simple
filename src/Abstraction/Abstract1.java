@@ -10,7 +10,7 @@ abstract class Animal{
 class cat extends Animal{
  public void animalSound() {
 		System.out.println(a+b);
-		System.out.println("the cat says :mau mau");
+		System.out.println("the cat says :mau mau asdasdf");
 
  }
 }
