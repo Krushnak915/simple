@@ -15,7 +15,7 @@ public class ArrList {
 		list.add("CustardApple");
 		//find fruit which start with m
 		list.stream().filter(e -> e.startsWith("m")).collect(Collectors.toList()).forEach(e -> System.out.println(e));
-		//sort list
+		//sort list s
 		list.stream().map(String::length).sorted().collect(Collectors.toList()).forEach(e -> System.out.println(e));;
 
 		
